@@ -16,7 +16,7 @@ module.exports = {
 ```
 
 ## Thin Controller
-This is a **FAT controller**, controller should handle request only:
+This is a **FAT controller**, because controller should handle request only:
 ```js
 // api/controllers/ProductController.js
 module.exports = {
@@ -33,7 +33,7 @@ module.exports = {
 ```
 
 
-Use `service` to minimize the controller,
+=> Solution: Use `service` to minimize the controller.
 ```js
 // api/controllers/ProductController.js
 module.exports = {
